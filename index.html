@@ -3,95 +3,64 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Hyun's Personal Site</title>
+  <title>Hyunsuk</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico?v=2"">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <table cellspacing="20">
-    <tr>
-      <td><img src="images/Hyun.png" alt="hyunsuk profile picture"></td>
-      <td>
-        <h1>Hyunsuk O</h1>
-        <p>
-        <ul style="list-style-type:none; padding:0; margin:0">
-          <li><em>Senior product engineer of <strong><a href="https://fleetup.com/">FleetUp</a>.</strong>
-          <li><em>Engine management system and OBD engineer of <strong><a href="https://www.vitesco-technologies.com/en-us">Vitesco Technologies Korea</a></strong>.</em></li>
-        </ul>
-        </p>
-        <p><em>An expert of engine system diagnostics. Experienced many mass vehicle production. Perform engine dyno test, emission tests, system evaluation, and certification process for US, Europe, China, Korea, and other countries. Project management as team leader and project leader of EMS development.</em>
-        </p>
-      </td>
-    </tr>
-  </table>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+    <h1>I'm Hyunsuk.</h1>
+    <h2>an EMS / OBD engineer.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+    <img src="images/mountain.png" alt="mountain-img">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/Hyun.png" alt="Profile-image" weight=150px, height=150px>
+      <h2>Hello.</h2>
+      <p class="intro">I'm an expert of engine system and diagnostics. I experienced many mass vehicle production.</p>
+    </div>
+    <hr>
 
-  <hr>
-  <h3>Expertise</h3>
-  <ul>
-    <li>Fleet management product development</li>
-    <li>Heavy duty and passenger car protocol</li>
-  </ul>
-  <ul>
-    <li>Expert of OBD system development</li>
-    <li>Engine & Vehicle Calibration / Certification / Validation & Verification / PVE</li>
-    <li>Test trip at Hot/Cold/High altitude sites</li>
-    <li>Skillful of INCA, GST, DPA5, Silver Scan Tool, CAN analyzer</li>
-  </ul>
-  <hr>
-  <h3>Work Experiences</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2015-Present</td>
-        <td>Senior Prodect Engineer at <a href="https://fleetup.com/">FleetUp</a></td>
-      </tr>
-      <tr>
-        <td>1996-2014</td>
-        <td>Calibration and OBD develpment at Continental Automotive Corp.</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <tr>
-      <td>Engine & Vehicle Calibration</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>OBD Development & Certification</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Validation & Varification</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Field issue resolution</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <h3>Educations</h3>
-  <table cellspacing="10">
-    <tr>
-      <td><a href="https://graduation.udacity.com/confirm/HRNNAL9G">Self-Driving Car Engineer</a></td>
-      <td><a href="https://www.udacity.com/">Udacity Nanodegree Program</a></td>
-    </tr>
-    <tr>
-      <td>Bachelor of Mechanical Engineering</td>
-      <td><a href="https://www.hanyang.ac.kr/web/eng">Hanyang University, South Korea</a></td>
-    </tr>
-  </table>
-  <hr>
-  <a href="hobbies.html">My Hobbies</a>
-  <a href="contact-me.html">Contact Me</a>
-  <br><br><br>
+    <div class="skills">
+      <h2>My Skills.</h2>
+
+      <div class="skill-row">
+        <img class="fleet-img" src="images/trucks.PNG" alt="Truck-image">
+        <h3>Fleet management product development</h3>
+        <p class="ELD-skill-description">ELD hardware and firmware development and testing / Field issue solving. Heavy duty and passenger car protocol analysis.</p>
+      </div>
+
+      <div class="skill-row">
+        <img class="engine-img" src="images/car.png" alt="engine-image">
+        <h3>Expert of EMS / OBD system development</h3>
+        <p class="EMS-skill-description">Engine & Vehicle Calibration / Certification / Validation & Verification / PVE. Perform engine dyno test, emission tests, system evaluation, and certification process for US, Europe, China, Korea, and other
+          countries. Project
+          management as team leader and project leader of EMS development.</p>
+      </div>
+    </div>
+
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love coffee as much as I do.</h3>
+      <p class="contact-message">Love coffee as much as I do? Let's talk about how awesome they are!</p>
+      <a class="btn" href="mailto:oh_hyunseok@hotmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/hyunsuk-o-920b83a5/" target="_blank">LinkedIn</a>
+    <a class="footer-link" href="https://twitter.com/HyunseokOh" target="_blank">Twitter</a>
+    <a class="footer-link" href="https://fleetup.com/" target="_blank">Website</a>
+    <p class="copyright">© 2022 Hyunsuk O.</p>
+  </div>
+
 </body>
 
 </html>
